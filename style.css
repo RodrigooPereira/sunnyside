@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(imagens/desktop/image-header.jpg);
+    background-size: 100vw 100vh;
+}
+
+.logo {
+    margin-left: 2%;
+    height: 32px;
+    width: 142px;
+}
+
+i#burguer {
+    display: none;
+}
+
+nav {
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav a {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    margin-left: 15px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-right: 3%;
+}
+
+.contact {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    padding: 13px 20px;
+    margin-left: 25px;
+}
+
+.slogan {
+    font-family: 'Fraunces', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 14vh;
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: 4px;
+    margin-left: 12px;
+}
+
+.ovo {
+    display: flex;
+}
+
+.texto-ovo {
+    display: flex;
+    width: 50vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto {
+    width: 68%;
+}
+
+.h1texto {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    font-size: 41px;
+    margin-bottom: 25px;
+}
+
+.texto p {
+    font-family: 'Barlow', sans-serif;
+    color: rgb(122, 122, 122);
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.learn {
+    font-family: 'Fraunces', sans-serif;
+    color: black;
+    text-decoration-color: hsl(51, 100%, 49%);
+    text-decoration-style: inherit;
+    font-size: 20px;
+    text-decoration-thickness: 5px;
+}
+
+.copo {
+    display: flex;
+}
+
+.texto-copo {
+    display: flex;
+    width: 50vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-copo {
+    width: 50vw;
+    height: 80vh;
+    background-image: url(imagens/desktop/image-stand-out.jpg);
+    background-size: 100% 100%;
+}
+
+.imagem-ovo {
+    width: 50vw;
+    height: 80vh;
+    background-image: url(imagens/desktop/image-transform.jpg);
+    background-size: 100% 100%;
+}
+
+.learn-vermelho {
+    font-family: 'Fraunces', sans-serif;
+    color: black;
+    text-decoration-color: hsl(7, 99%, 70%);
+    text-decoration-style: inherit;
+    font-size: 20px;
+    text-decoration-thickness: 5px;
+}
+
+.imagens {
+    display: flex;
+}
+
+.imagem-cereja {
+    display: flex;
+    height: 86vh;
+    width: 50vw;
+    background-image: url(imagens/desktop/image-graphic-design.jpg);
+    background-size: 100% 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto-cereja {
+    margin-top: 59vh;
+    width: 55%;
+}
+
+.texto-cereja h2 {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    color: hsl(167, 40%, 24%);
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-right: 1%;
+}
+
+.texto-cereja p {
+    font-family: 'Barlow', sans-serif;
+    color: hsl(198, 62%, 26%);
+    margin-right: 1%;
+}
+
+.imagem-tangerina {
+    display: flex;
+    height: 86vh;
+    width: 50vw;
+    background-image: url(imagens/desktop/image-photography.jpg);
+    background-size: 100% 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto-tangerina {
+    margin-top: 59vh;
+    width: 55%;
+}
+
+.texto-tangerina h2 {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    color: hsl(198, 62%, 26%);
+    font-size: 30px;
+    margin-left: 3.5%;
+    margin-bottom: 20px;
+}
+
+.texto-tangerina p {
+    font-family: 'Barlow', sans-serif;
+    color: hsl(198, 62%, 26%);
+    margin-left: 3.5%;
+}
+
+.testemunhos {
+    height: 85vh;
+    width: 100vw;
+
+}
+
+.comentarios {
+    width: 80vw;
+    height: 65vh;
+    margin-right: 10.5vw;
+    margin-left: 9.5vw;
+    display: flex;
+    align-items: center;
+}
+
+.pessoa {
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-flow: column;
+}
+
+.comentarios img {
+    border-radius: 150px;
+    height: 75px;
+    width: 75px;
+    margin-bottom: 25px;
+}
+
+.critica {
+    font-family: 'Barlow', sans-serif;
+    color: rgb(122, 122, 122);
+    margin-right: 6%;
+    margin-left: 6%;
+    margin-bottom: 25px;
+}
+
+.nome {
+    font-family: 'Fraunces', sans-serif;
+    margin-bottom: 6px;
+}
+
+.profissao {
+    font-family: 'Barlow', sans-serif;
+    color: rgb(122, 122, 122);
+}
+
+.titulo {
+    height: 10%;
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+    align-items: center;
+    display: block;
+    margin: auto;
+    font-family: 'Fraunces', sans-serif;
+    color: rgb(122, 122, 122);
+    letter-spacing: 3px;
+}
+
+.footer-cima {
+    display: flex;
+}
+
+.responsivo {
+    display: flex;
+}
+
+.imagens4 {
+    width: 25vw;
+}
+
+footer {
+    height: 35vh;
+    background-color: hsl(169, 39%, 62%);
+}
+
+.div-logo {
+    padding-top: 35px;
+}
+
+.logo-footer {
+    display: block;
+    margin: auto;
+}
+
+.nav-footer {
+    justify-content: center;
+}
+
+footer > nav > a {
+    color: hsl(166, 34%, 35%);
+    font-family: 'Barlow', sans-serif;
+}
+
+.sociais {
+    justify-content: center;
+}
+
+@media (max-width: 850px) {
+    header {
+        background-image: url(imagens/mobile/image-header.jpg);
+        background-size: 100vw 100vh;
+    }
+
+    ul {
+        position: absolute;
+        display: none;
+        background-color: white;
+        width: 80vw;
+        height: 250px;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 350px;
+        text-align: center;
+    }
+
+    li > a {
+        display: flex;
+        flex-direction: column;
+        color: black;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+
+    i#burguer {
+        display: flex;
+        justify-content: right;
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    .contact {
+        margin: 0;
+        background-color: yellow;
+        color: black;
+        border-radius: 25px;
+        width: 150px;
+        margin: auto;
+    }
+
+    .ovo {
+        display: flex;
+        width: 100vw;
+        flex-direction: column-reverse;
+    }
+
+    .copo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagem-ovo {
+        background-image: url(imagens/mobile/image-transform.jpg);
+        background-size: 100% 100%;
+    }
+
+    .imagem-copo {
+        background-image: url(imagens/mobile/image-stand-out.jpg);
+        background-size: 100% 100%;
+    }
+
+    .texto-ovo, .imagem-ovo, .texto-copo, .imagem-copo {
+        width: 100vw;
+        text-align: center;
+        height: 70vh;
+    }
+
+    .texto {
+        width: 75vw;
+    }
+
+    .imagens {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagem-cereja {
+        background-image: url(imagens/mobile/image-graphic-design.jpg);
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .imagem-tangerina {
+        background-image: url(imagens/mobile/image-photography.jpg);
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .texto-cereja, .texto-tangerina {
+        font-size: 19px;
+        margin-top: 65vh;
+        width: 80%;
+    }
+
+    .titulo {
+        padding-top: 40px;
+    }
+
+    .testemunhos {
+        height: 165vh;
+    }
+
+    .pessoa {
+        width: 80vw;
+        padding-top: 30px;
+    }
+
+    .comentarios {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .responsivo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-cima {
+        display: flex;
+    }
+
+    .imagens4 {
+        display: flex;
+        width: 50vw;
+        height: 45vh;
+    }
+
+}
