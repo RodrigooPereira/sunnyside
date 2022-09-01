@@ -311,6 +311,11 @@ footer > nav > a {
 }
 
 @media (max-width: 850px) {
+
+    * {
+        overflow-x: hidden;
+    }
+
     header {
         background-image: url(imagens/mobile/image-header.jpg);
         background-size: 100vw 100vh;
@@ -350,6 +355,10 @@ footer > nav > a {
         border-radius: 25px;
         width: 150px;
         margin: auto;
+    }
+
+    .slogan {
+        font-size: 50px;
     }
 
     .ovo {
