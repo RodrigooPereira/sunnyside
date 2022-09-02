@@ -312,7 +312,7 @@ footer > nav > a {
 
 @media (max-width: 850px) {
 
-    * {
+    body {
         overflow-x: hidden;
     }
 
@@ -385,7 +385,7 @@ footer > nav > a {
     .texto-ovo, .imagem-ovo, .texto-copo, .imagem-copo {
         width: 100vw;
         text-align: center;
-        height: 70vh;
+        height: 55vh;
     }
 
     .texto {
