@@ -385,7 +385,7 @@ footer > nav > a {
     .texto-ovo, .imagem-ovo, .texto-copo, .imagem-copo {
         width: 100vw;
         text-align: center;
-        height: 55vh;
+        height: 60vh;
     }
 
     .texto {
@@ -413,6 +413,14 @@ footer > nav > a {
         font-size: 19px;
         margin-top: 65vh;
         width: 80%;
+    }
+
+    .h1texto {
+        font-size: 34px;
+    }
+
+    .texto p {
+        font-size: 17px;
     }
 
     .titulo {
